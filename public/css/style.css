@@ -1,0 +1,21 @@
+.slider-image {
+  height: 500px !important;
+  object-fit: cover;
+}
+/* .card:hover {
+  background-color: #f8f9fa;
+  transform: scale(1.05);
+  transition: all 0.2s ease-in-out;
+} */
+/* .card:hover {
+  background-color: #f8f9fa;
+  transform: scale(1.05);
+  transition: all 0.2s ease-in-out;
+} */
+.card:hover {
+  box-shadow: 0 4px 8px 0 rgba(243, 243, 243, 0.897),
+    0 8px 16px 0 rgba(219, 18, 18, 0.918);
+  transform: translateY(-5px);
+  transition: all 0.2s ease-in-out;
+}
+
